@@ -27,6 +27,10 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+        <div className="flex flex-col">
+        <span className="bg-red-500 text-2xl hover:scale-110 duration-300 ease-in-out cursor-pointer hover:bg-yellow-500">TAILWIND TEST</span>
+        <span className="bg-green-500 text-2xl hover:scale-105 duration-300 ease-in-out">TAILWIND TEST 2</span>
+        </div>
       </p>
     </>
   )
